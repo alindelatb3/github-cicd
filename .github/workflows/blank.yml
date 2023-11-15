@@ -34,3 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Runs a build
+      - name: Build on ${GITHUB_REF}
+        run: echo Hello, world!
