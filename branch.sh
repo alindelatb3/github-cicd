@@ -1,6 +1,6 @@
 #!/bin/bash
 
-d=`date +%Y%m%d%H%M%S`
+d=`date +%Y%m%d-%H%M%S`
 
 branch="test-1-branch-${d}"
 
