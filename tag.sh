@@ -1,6 +1,6 @@
 #!/bin/bash
 
-d=`date +%Y%m%d`
+d=`date +%Y%m%d%H%M%S`
 
 tag="test-1-tag-${d}"
 
