@@ -4,7 +4,7 @@ d=`date +%Y%m%d`
 
 branch="test-1-branch-${d}"
 
-git checkout ${branch}
+git branch ${branch}
 
 echo >> README.md
 echo "test-1 changes" >> README.md
