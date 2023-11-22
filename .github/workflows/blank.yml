@@ -38,3 +38,10 @@ jobs:
       # Runs a build
       - name: Build on ${GITHUB_REF}
         run: echo Hello, world!
+
+  deployment:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Deploy on ${GITHUB_REF}
+        run: echo Hello, world!
